@@ -1,0 +1,83 @@
+body {
+  background: #B9F3FF;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+i {
+  float: right;
+  margin-top: 35px;
+  margin-right: 5px;
+}
+
+.input-group {
+  margin-top: 15px;
+}
+
+.usersNone {
+  background: #fff;
+  height: 100px;
+  line-height: 100px;
+  color: #666;
+}
+
+.usersOffline {
+  background: #fff;
+  height: 100px;
+  line-height: 100px;
+  color: #666;
+}
+
+.usersOnline {
+  background: #fff;
+  height: 100px;
+  line-height: 100px;
+  color: #666;
+}
+
+
+.users:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+.description {
+  display: inline;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.fa-circle {
+  color: green;
+  font-size: 30px !important;
+}
+
+.fa-times {
+  color: red;
+  font-size: 30px !important;
+}
+
+.fa-question {
+  color: red;
+  font-size: 30px !important;
+}
+
+#container {
+  box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+  width: 500px;
+  margin: 100px auto;
+  background: #f7f7f7;
+}
+
+#allUsers {
+  padding: 0;
+}
+
+span.userLogo {
+  padding-left: 10px;
+}
